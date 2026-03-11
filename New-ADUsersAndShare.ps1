@@ -43,7 +43,7 @@
         1.0 - Initial release
 
 .LINK
-    https://link-to-related-docs-or-repo
+    https://github.com/Rez70/AD-User-Folder-Permissions.git
 #>
 
 #Parameters
@@ -59,6 +59,7 @@ param(
 
 #Functions
 
+# Creates user accounts depending on the infomation provided in the CSV file
 function Create-User {
     
     param(
@@ -84,7 +85,7 @@ function Create-User {
     }
 }
 
-
+# Creates a new folder on the specified path
 function Create-Folder {
     
     param(
@@ -94,7 +95,7 @@ function Create-Folder {
 
 }
 
-
+# Assigns NTFS and SMB share folder permissions to users
 function Set-Permissions {
     [CmdletBinding()]
     param(
