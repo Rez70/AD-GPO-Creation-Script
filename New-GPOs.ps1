@@ -42,7 +42,7 @@
         1.1 - Implemented try/catch statements 
 
 .LINK
-    https://link-to-related-docs-or-repo
+    https://github.com/Rez70/AD-GPO-Creation-Script.git
 #>
 
 #Parameters
